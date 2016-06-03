@@ -4,25 +4,25 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>一蓑烟雨洗风尘——小记上海感悟 | ZRC_BLOG</title>
+    <title>关于Android VerSionName版本控制问题 | ZRC_BLOG</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="John Doe">
     
 
     
-    <meta name="description" content="#一蓑烟雨洗风尘——小记上海感悟　　本篇是我的个人博客第一篇，千辛万苦给搞出来了,先不打算记一些知识性的‘硬菜’，来一篇这几月的小感悟吧！　　昨晚上呢个风雨交加的夜晚（没有恐怖以及龌龊的事），首次听到了雷声，瞬间觉得这是从老家临沂传来的，月是故乡明，雷是故乡鸣啊，一顿感悟，听了一夜的铁马冰河，就像在老家的小床上听雨一般，悠悠入眠。。。格外畅快。　　今早一开门就被泥土花香给惊住了，对于早就被代码麻痹">
+    <meta name="description" content="引导语：在开发app时候的必经之路，那就是为自己的app打上一个版本管理标签，这是完全自己定义的，当然版本号必须是不断往上加的。来了解一下Gradle中的两个标签。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="一蓑烟雨洗风尘——小记上海感悟">
-<meta property="og:url" content="http://zhuruicheng.com/2016/06/01/myblog1/index.html">
+<meta property="og:title" content="关于Android VerSionName版本控制问题">
+<meta property="og:url" content="http://zhuruicheng.com/2016/06/03/myblog3/index.html">
 <meta property="og:site_name" content="ZRC_BLOG">
-<meta property="og:description" content="#一蓑烟雨洗风尘——小记上海感悟　　本篇是我的个人博客第一篇，千辛万苦给搞出来了,先不打算记一些知识性的‘硬菜’，来一篇这几月的小感悟吧！　　昨晚上呢个风雨交加的夜晚（没有恐怖以及龌龊的事），首次听到了雷声，瞬间觉得这是从老家临沂传来的，月是故乡明，雷是故乡鸣啊，一顿感悟，听了一夜的铁马冰河，就像在老家的小床上听雨一般，悠悠入眠。。。格外畅快。　　今早一开门就被泥土花香给惊住了，对于早就被代码麻痹">
-<meta property="og:image" content="http://www.nxnews.net/pic/0/10/54/62/10546296_638825.jpg">
-<meta property="og:updated_time" content="2016-06-03T03:29:19.024Z">
+<meta property="og:description" content="引导语：在开发app时候的必经之路，那就是为自己的app打上一个版本管理标签，这是完全自己定义的，当然版本号必须是不断往上加的。来了解一下Gradle中的两个标签。">
+<meta property="og:image" content="http://img.blog.csdn.net/20160510105117479">
+<meta property="og:updated_time" content="2016-06-03T03:46:07.010Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="一蓑烟雨洗风尘——小记上海感悟">
-<meta name="twitter:description" content="#一蓑烟雨洗风尘——小记上海感悟　　本篇是我的个人博客第一篇，千辛万苦给搞出来了,先不打算记一些知识性的‘硬菜’，来一篇这几月的小感悟吧！　　昨晚上呢个风雨交加的夜晚（没有恐怖以及龌龊的事），首次听到了雷声，瞬间觉得这是从老家临沂传来的，月是故乡明，雷是故乡鸣啊，一顿感悟，听了一夜的铁马冰河，就像在老家的小床上听雨一般，悠悠入眠。。。格外畅快。　　今早一开门就被泥土花香给惊住了，对于早就被代码麻痹">
-<meta name="twitter:image" content="http://www.nxnews.net/pic/0/10/54/62/10546296_638825.jpg">
+<meta name="twitter:title" content="关于Android VerSionName版本控制问题">
+<meta name="twitter:description" content="引导语：在开发app时候的必经之路，那就是为自己的app打上一个版本管理标签，这是完全自己定义的，当然版本号必须是不断往上加的。来了解一下Gradle中的两个标签。">
+<meta name="twitter:image" content="http://img.blog.csdn.net/20160510105117479">
 
     
     <link rel="alternative" href="/atom.xml" title="ZRC_BLOG" type="application/atom+xml">
@@ -82,14 +82,14 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2016/06/01/myblog1/" title="一蓑烟雨洗风尘——小记上海感悟" itemprop="url">一蓑烟雨洗风尘——小记上海感悟</a>
+      <a href="/2016/06/03/myblog3/" title="关于Android VerSionName版本控制问题" itemprop="url">关于Android VerSionName版本控制问题</a>
   </h1>
   <p class="article-author">By
        
 		<a href="/about" title="John Doe" target="_blank" itemprop="author">John Doe</a>
 		
   <p class="article-time">
-    <time datetime="2016-05-31T16:38:15.000Z" itemprop="datePublished"> Published 2016-06-01</time>
+    <time datetime="2016-06-03T03:44:21.000Z" itemprop="datePublished"> Published 2016-06-03</time>
     
   </p>
 </header>
@@ -98,14 +98,15 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">Contents</strong>
 		
-			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#一蓑烟雨洗风尘——小记上海感悟"><span class="toc-number">1.</span> <span class="toc-text">#一蓑烟雨洗风尘——小记上海感悟</span></a></li></ol>
+			
 		
 		</div>
 		
-		<h2 id="一蓑烟雨洗风尘——小记上海感悟"><a href="#一蓑烟雨洗风尘——小记上海感悟" class="headerlink" title="#一蓑烟雨洗风尘——小记上海感悟"></a>#一蓑烟雨洗风尘——小记上海感悟</h2><p><img src="http://www.nxnews.net/pic/0/10/54/62/10546296_638825.jpg" alt="markdown-img1"><br>　　<strong>本篇</strong>是我的个人博客第一篇，千辛万苦给搞出来了,先不打算记一些知识性的‘硬菜’，来一篇这几月的小感悟吧！<br>　　昨晚上呢个风雨交加的夜晚（没有恐怖以及龌龊的事），首次听到了雷声，瞬间觉得这是从老家临沂传来的，月是故乡明，雷是故乡鸣啊，一顿感悟，听了一夜的铁马冰河，就像在老家的小床上听雨一般，悠悠入眠。。。格外畅快。<br>　　今早一开门就被泥土花香给惊住了，对于早就被代码麻痹大脑的苦逼coder来说，无异于当头一棒，什么才是最美的东西！好在我还是可以感受自然气息的，上海很美，尤其是雨后的早上，简直了！真希望是周六，可以多看会，又想到现在的人太浮躁，有几个可以感受雨后的美景？有几个人能够静下心来理解这个社会呢，在大上海还是站稳脚跟最为不易，感谢给我无私帮助的亲人朋友们！感谢孤独中陪伴我的朋友们！多感悟一会，最后，还是拎包加速，去上班啦！<br>    最后，忍不住骚了一把，作诗一首：</p>
-<blockquote>
-<p><b>一蓑烟雨溯泥尘，碎叶连珠柳条新。</b><br>     <b>荔月难得春拂面，又忆北城故乡人。</b></p>
-</blockquote>
+		<p><strong>引导语：</strong>在开发app时候的必经之路，那就是为自己的app打上一个版本管理标签，这是完全自己定义的，当然版本号必须是不断往上加的。<br>来了解一下Gradle中的两个标签。<a id="more"></a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">defaultConfig &#123; </span><br><span class="line">            //这个versionCode 是指你升级的Code码，简单理解可以为标记的升级次数</span><br><span class="line">            versionCode verCode</span><br><span class="line">            //这个则是升级的版本号，也就是版本名称（注意这两个Code和name必须不断增大，不可以一个变大一个减小，否则打包后发布平台审核不予通过）</span><br><span class="line">            versionName &quot;2.3.8&quot;</span><br><span class="line"> </span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
+<p><strong>重要的：</strong>我们在做开发时候经常有忘记改变versionCode的值，导致各大app平台审核不过，现在我们就用另一种简单的glide语言，让它自己叠加Code码，方便我们打包上线，管理版本号。<br><strong>步骤：</strong><br>    1.建立一个后缀为properties ，全名为 version.properties的文件<br>    <img src="http://img.blog.csdn.net/20160510105117479" alt="目录如下"><br>    2.在此文件里面编辑一句话  <code>VERSION_CODE=0</code><br>    3.在没感染到了中进行代码叠加工作<br>    <strong>上代码：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">android &#123;</span><br><span class="line">    compileSdkVersion 22</span><br><span class="line">    buildToolsVersion &quot;22.0.1&quot;</span><br><span class="line"></span><br><span class="line">    def versionPropsFile = file(&quot;version.properties&quot;)</span><br><span class="line">    if (versionPropsFile.canRead()) &#123; </span><br><span class="line">        Properties versionProps = new Properties()</span><br><span class="line">        versionProps.load(new FileInputStream(versionPropsFile))</span><br><span class="line"></span><br><span class="line">        def runTasks = gradle.startParameter.taskNames</span><br><span class="line">        def int verCode = versionProps[&apos;VERSION_CODE&apos;].toInteger()</span><br><span class="line">        if (&apos;:app:assembleRelease&apos; in runTasks) &#123;</span><br><span class="line">            versionProps[&apos;VERSION_CODE&apos;] = (verCode + 1).toString()</span><br><span class="line">            versionProps.store(versionPropsFile.newWriter(), null)</span><br><span class="line">        &#125;</span><br><span class="line">        defaultConfig &#123;</span><br><span class="line">            renderscriptTargetApi 20</span><br><span class="line">            renderscriptSupportModeEnabled true</span><br><span class="line">            applicationId &quot;com.mktou.android&quot;</span><br><span class="line">            minSdkVersion 14</span><br><span class="line">            targetSdkVersion 22</span><br><span class="line">            versionCode verCode</span><br><span class="line">            versionName &quot;2.3.8&quot;</span><br><span class="line"></span><br><span class="line">            ndk &#123;</span><br><span class="line">                //设置支持的SO库架构</span><br><span class="line">                abiFilters &apos;armeabi&apos; //, &apos;x86&apos;, &apos;armeabi-v7a&apos;, &apos;x86_64&apos;, &apos;arm64-v8a&apos;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125; else &#123;</span><br><span class="line">        throw new GradleException(&quot;Could not read version.properties!&quot;)</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<p><strong>结束语：</strong>这样之后每次apk打包便可轻松愉快啦，不要忘记最基础的原则，就是VersionName只能不断增大下去</p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -118,7 +119,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://zhuruicheng.com/2016/06/01/myblog1/" data-title="一蓑烟雨洗风尘——小记上海感悟 | ZRC_BLOG" data-tsina="null" class="share clearfix">
+	  <div data-url="http://zhuruicheng.com/2016/06/03/myblog3/" data-title="关于Android VerSionName版本控制问题 | ZRC_BLOG" data-tsina="null" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -131,14 +132,14 @@
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2016/06/03/myblog2/" title="Android 集成友盟微社区详细步骤">
-  <strong>上一篇：</strong><br/>
-  <span>
-  Android 集成友盟微社区详细步骤</span>
+
+<div class="next">
+<a href="/2016/06/03/myblog2/"  title="Android 集成友盟微社区详细步骤">
+ <strong>下一篇：</strong><br/> 
+ <span>Android 集成友盟微社区详细步骤
+</span>
 </a>
 </div>
-
 
 </nav>
 
@@ -150,7 +151,7 @@
   <div id="toc" class="toc-aside">
   <strong class="toc-title">Contents</strong>
  
- <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#一蓑烟雨洗风尘——小记上海感悟"><span class="toc-number">1.</span> <span class="toc-text">#一蓑烟雨洗风尘——小记上海感悟</span></a></li></ol>
+ 
  
   </div>
 
